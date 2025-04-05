@@ -14,7 +14,7 @@ def health_check():
 
 # --- Configuration ---
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7567728588:AAHYkrfKBQC2uicLov63ho94g1LIj1O30CI")  # Remove hardcoded token in production
-ADMIN_UIDS = {7973112315, 903395157}
+ADMIN_UIDS = {7973112315, 903395157, 6301780478}
 GROUP_ID = int(os.getenv("TELEGRAM_GROUP_ID", "-1002672115790"))
 CHANNEL_ID = int(os.getenv("TELEGRAM_CHANNEL_ID", "-1002310362731"))
 
